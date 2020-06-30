@@ -12,4 +12,4 @@ class UserHeader extends React.Component {
 	}
 }
 
-export default connect(null, { fetchUser })(UserHeader);
+export default connect(null, { fetchUser })(UserHeader); //jast
