@@ -7,7 +7,7 @@ export const fetchPosts = () => {
 		dispatch({ type: 'FETCH_POSTS', payload: response.data });
 	};
 };
-//isto ko gore samo sa es2015(ES6) skraceno za return i bez {}
+//isto ko gore samo sa es2015(ES6) skraceno za return i bez {} mada
 export const fetchUser = (id) => async (dispatch) => {
 	const response = await jsonPlaceholder.get(`/users/${id}`);
 	dispatch({ type: 'FETCH_USER', payload: response.data });
